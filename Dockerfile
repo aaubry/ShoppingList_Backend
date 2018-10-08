@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:2.7
 
 RUN    apk update              \
     && apk add                 \
